@@ -2,6 +2,8 @@
 
 Este é um aplicativo **Streamlit** simples para **distribuir membros de equipe** entre diferentes seções, com base na contagem de itens em cada seção. O projeto utiliza o **Método do Maior Resto** (também conhecido como **Método de Hamilton**) para garantir uma alocação justa e proporcional, mesmo com um número pequeno de membros.
 
+Você pode encontrar o programa em: [https://distribution-algorithm.streamlit.app/](https://distribution-algorithm.streamlit.app/)
+
 ## 🛠️ Como Funciona?
 
 O aplicativo oferece uma interface interativa onde você pode:
