@@ -181,11 +181,12 @@ if st.button("Executar Distribuição", use_container_width=True, type="primary"
             with cols[i % num_cols]:
                 num_members_in_section = len(members_in_section)
                 
-                st.markdown(f"**Galeria {i+1}**")
+                st.markdown(f"<h3 style='font-size: 28px;'>Galeria {i+1}</h3>", unsafe_allow_html=True)
                 
                 if members_in_section:
-                    st.markdown(" – ".join(members_in_section))
+                    members_str = " – ".join([f"<span style='font-size: 22px;'>{name}</span>" for name in members_in_section])
+                    st.markdown(members_str, unsafe_allow_html=True)
                 else:
-                    st.markdown("**NENHUM**")
+                    st.markdown("<p style='font-size: 22px; color: grey;'>NENHUM</p>", unsafe_allow_html=True)
                 
                 st.markdown("---")
