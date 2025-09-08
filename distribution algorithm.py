@@ -23,7 +23,7 @@ def calculate_target_percentages(item_counts):
 
     # Define os thresholds dinâmicos baseados no número de galerias ativas
     thresholds = {
-        4: 0.20,  # 20% para 4 galerias
+        4: 0.21,  # 21% para 4 galerias
         3: 0.27,  # 27% para 3 galerias
         2: 0.40,  # 40% para 2 galerias
         1: 1.00   # 100% para 1 galeria
